@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: fixed;
+    background-color: lightblue;
+}
+.logo {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    color: black;
+    
+}
+.logo a span{
+    color: red;
+}
+.content p{
+    font-weight: bold;
+}
+
+.content{
+    color: brown;
+    font-size: 30px;
+    position: relative;
+    top: 40px;
+    left: 600px;
+    text-align: center;
+}
+.content span{
+    font-size: 45px;
+}
+.pic{
+    position: relative;
+    left: 600px;
+    
+}
+.container {
+	position: fixed;
+	width: 100%;
+    top: 550px;
+    right: 750px;
+	transition: .6s;
+	display: block;
+    transition: all .5s ease;
+   
+    
+    
+}
+.container nav   {
+    
+	position: relative;
+	left: 1100px;
+   
+    display: inline-block;
+	
+    
+}
+.container a{
+    color:aliceblue;
+    text-decoration: none;
+}
+.container nav button{
+    background-color: darkblue;
+    font-style: italic;
+    line-height: 50px;
+    border: 2px solid #ff2c0;
+    height: 50px;
+    width: 250px;
+	cursor: pointer;
+	outline: none;
+	animation: anim-shadow .3s forwards;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'poppins' , sans-serif;
+   
+    border-radius: 15px;
+    border: 2px solid #fff;
+    animation: anim-shadow .3s forwards;
+    
+    
+}
+
+
